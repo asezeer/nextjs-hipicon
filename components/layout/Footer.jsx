@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../ui/Title";
-
+import Link from "next/link";
 const Footer = () => {
   return (
     <div className="bg-secondary text-white">
@@ -83,7 +83,11 @@ const Footer = () => {
           </div>
         </div>
         <p className="text-center mt-10">
-          © 2022 All Rights Reserved By Free Html Templates
+          <button className="btn-primary">
+            <Link href="/about">
+              Tasarımcılarımız arasına katılmak için tıklayın.
+            </Link>
+          </button>
         </p>
       </div>
     </div>

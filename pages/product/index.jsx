@@ -20,7 +20,7 @@ const itemsExtra = [
 const foodItems = [
   {
     id: 1,
-    name: "Pizza 1",
+    name: "Unchain My Heart Küpe",
     price: 10,
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fugit corporis ex laboriosam tenetur at ad aspernatur",
     extraOptions: [
